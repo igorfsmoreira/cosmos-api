@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4GiaoSuFUK/B2S7ckgr/QYtl4By+cZnjj7fTqxavUBG8CIiq4SxdKjkTOobJDMaV8A3BEIa/vKKQCQMMpfFkGw==",
+  "dgSpecHash": "AqLUbdcrd4tsoHwntPLa98VXe1PbVWHfaLseEaCeDkGGII8etbc+691TZ0pqQX+ABFS9EWD6tex0UUswY93FKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IMOREIRA\\source\\repos\\CosmosAPI\\CosmosAPI\\CosmosAPI.csproj",
+  "projectFilePath": "C:\\Users\\IMOREIRA\\Documents\\GitHub\\cosmos-api\\CosmosAPI\\CosmosAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IMOREIRA\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
     "C:\\Users\\IMOREIRA\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",

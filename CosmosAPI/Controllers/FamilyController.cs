@@ -7,9 +7,11 @@ namespace CosmosAPI.Controllers
     public class FamilyController : ControllerBase
     {
         [HttpGet(Name = "GetFamilies")]
-        public async Task<ActionResult<List<Family>>> GetAsync()
+        //public async Task<ActionResult<List<Family>>> GetAsync()
+        public  ActionResult GetHello()
         {
-            return Ok(await CosmosDB.Instance.QueryAllItemsAsync());
+            return Ok("Hello");
         }
+
     }
 }

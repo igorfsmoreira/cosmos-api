@@ -6688,11 +6688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IMOREIRA\\source\\repos\\CosmosAPI\\CosmosAPI\\CosmosAPI.csproj",
+      "projectUniqueName": "C:\\Users\\IMOREIRA\\Documents\\GitHub\\cosmos-api\\CosmosAPI\\CosmosAPI.csproj",
       "projectName": "CosmosAPI",
-      "projectPath": "C:\\Users\\IMOREIRA\\source\\repos\\CosmosAPI\\CosmosAPI\\CosmosAPI.csproj",
+      "projectPath": "C:\\Users\\IMOREIRA\\Documents\\GitHub\\cosmos-api\\CosmosAPI\\CosmosAPI.csproj",
       "packagesPath": "C:\\Users\\IMOREIRA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IMOREIRA\\source\\repos\\CosmosAPI\\CosmosAPI\\obj\\",
+      "outputPath": "C:\\Users\\IMOREIRA\\Documents\\GitHub\\cosmos-api\\CosmosAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IMOREIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
