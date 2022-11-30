@@ -4,7 +4,7 @@ using Microsoft.Azure.Cosmos;
 namespace CosmosAPI.Controllers
 {
     [ApiController]
-    [Route("data")]
+    [Route("api/all")]
     public class FamilyController : ControllerBase
     {
         [HttpGet(Name = "GetFamilies")]
