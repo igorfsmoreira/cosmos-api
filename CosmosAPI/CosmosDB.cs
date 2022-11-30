@@ -25,8 +25,8 @@ namespace CosmosAPI
         private Container container;
 
         // The name of the database and container we will create
-        private string databaseId = "ToDoList";
-        private string containerId = "Items";
+        private string databaseId = "FamiliesDB";
+        private string containerId = "Families";
 
         private static CosmosDB _instance = null;
         public static CosmosDB Instance
@@ -321,9 +321,9 @@ namespace CosmosAPI
         }
         // </DeleteDatabaseAndCleanupAsync>
 
-        public async Task<List<Family>> QueryAllItemsAsync()
+        public async Task<List<Family>> QueryAllFamiliesAsync()
         {
-            var sqlQueryText = "SELECT * FROM c";
+            var sqlQueryText = "SELECT * FROM " + containerId;
 
             Console.WriteLine("Running query: {0}\n", sqlQueryText);
 

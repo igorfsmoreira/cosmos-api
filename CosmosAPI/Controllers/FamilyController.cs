@@ -1,16 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Cosmos;
 
 namespace CosmosAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("data")]
     public class FamilyController : ControllerBase
     {
         [HttpGet(Name = "GetFamilies")]
-        //public async Task<ActionResult<List<Family>>> GetAsync()
-        public  ActionResult GetHello()
+        public async Task<ActionResult<List<Family>>> GetAsync()
         {
-            return Ok("Hello");
+            return Ok(await CosmosDB.Instance.QueryAllFamiliesAsync());
         }
 
     }

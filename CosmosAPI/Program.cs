@@ -2,6 +2,8 @@ using CosmosAPI;
 
 var builder = WebApplication.CreateBuilder(args);
 
+await CosmosDB.Instance.Init();
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -25,5 +27,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-await CosmosDB.Instance.Init();
