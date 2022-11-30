@@ -1,8 +1,8 @@
 using CosmosAPI;
 
-var builder = WebApplication.CreateBuilder(args);
-
 await CosmosDB.Instance.Init();
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 

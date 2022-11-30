@@ -59,8 +59,7 @@ namespace CosmosAPI
             }
             finally
             {
-                Console.WriteLine("End of demo, press any key to exit.");
-                Console.ReadKey();
+                Console.WriteLine("End of CosmosDB\n");
             }
         }
 
